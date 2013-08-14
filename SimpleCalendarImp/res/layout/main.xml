@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lini"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Welcome" >
+<TableLayout
+        android:id="@+id/tableLayout122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_centerVertical="true">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:text="@string/Welcome"
+    android:textColor="#000000"
+    android:textSize="24sp" />
+
+</TableRow>
+</TableLayout>
+</RelativeLayout>

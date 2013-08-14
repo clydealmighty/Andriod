@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu_bg"
+    android:paddingTop="150dip"
+    android:orientation="horizontal"
+    android:gravity="center" >
+    
+    <TableLayout android:layout_width="wrap_content"
+    	android:layout_height="fill_parent" >
+    
+    	<TableRow>	
+		    <Button android:id="@+id/single_player"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/menu_single_s" />
+		    	
+		    <Button android:id="@+id/multiplayer"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/menu_multi_s" />
+    	</TableRow>
+    	<TableRow>
+		    <Button android:id="@+id/options"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/menu_options_s" />
+		    	
+		    <Button android:id="@+id/exit_game"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/menu_exit_s" />
+    	</TableRow>
+	
+	</TableLayout>
+</LinearLayout>

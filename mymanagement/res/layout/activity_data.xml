@@ -1,0 +1,134 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#FFFFFF"
+         >
+  
+    
+    
+    
+    
+<TableLayout 
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+   
+<TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/textView31"
+            android:text="@string/username"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+ 
+    </TableRow>
+
+<TableRow
+    android:id="@+id/tableRow2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+          <TextView
+              android:id="@+id/textView33"
+              android:text="@string/Location"
+              android:textStyle="bold" >
+
+        </TextView>
+
+          <EditText
+              android:id="@+id/editText2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:ems="10"
+              android:inputType="textMultiLine" />
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:text="@string/Type"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:text="@string/Picture"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nTYpe" />
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+          <ImageView
+    android:id="@+id/ImageView02"
+    android:layout_height="100sp"  
+    android:layout_width="100sp">
+</ImageView>
+</TableRow>
+ 
+</TableLayout>
+      </ScrollView>
